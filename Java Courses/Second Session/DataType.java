@@ -1,8 +1,14 @@
 // package Java Courses.Second Session;
 
 public class DataType {
-    // ? Data Types:
-    // ! I) Primitives Types:
+    // ? Data Types:En Java, les types de données définissent le type de valeurs qu'une variable peut stocker. 
+    //* Ils garantissent l'efficacité de la mémoire et la sécurité des types.
+    //* Le langage de programmation Java est statiquement typé, 
+    //* ce qui signifie que toutes les variables doivent être déclarées avant de pouvoir être utilisées.
+    //* Le type de données d'une variable détermine les valeurs qu'elle peut contenir, ainsi que les opérations qui peuvent être effectuées sur elle.
+    //* Cela implique d’indiquer le type et le nom de la variable, comme vous l'avez déjà vu :
+    
+    // ! I) Primitives Types: (stocke les données simples)
     // * - a) "int" (Place en mémoire 4octets) -> fourchette de valeur (min
     // & max): -2 147 483 647
     // * - b) "float" (Place en mémoire 4octets) -> fourchette de valeur (min
@@ -20,7 +26,7 @@ public class DataType {
     // max): -2^63 à +2^63-1
         
 
-    //! II) Non-Primitive Types:
+    //! II) Non-Primitive Types: stocke ls objets ou données complexes
 
     //! Object Types & "Wrapper Classes"
     //* - a) Integer: La classe Integer encapsule une valeur du type primitif int dans un objet.
