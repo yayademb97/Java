@@ -18,7 +18,7 @@ public class Main {
 
         //* Exemple: Common Mistake
         //* Si j'essaie d'accéder depuis la classe Main à l'attribut "p_myName" 
-        // System.out.println(myAttribute1.p_myName);  //? Output: Error: Puisque l'attribut est d"fini "private" , 
+        // System.out.println(myAttribute1.p_myName);  //? Output: Error: Puisque l'attribut est défini "private" , 
                                                        //* donc du coup on ne peut pas l'accéder à une classe extérieure.
     }
 }
