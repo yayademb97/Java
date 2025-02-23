@@ -34,4 +34,17 @@ public class Attribute {
 
         //? 📌 Note ⚠️: Le niveau d'accès"private" exprime que cet attribut n'est accéssible (lire, modifier, etc...) que dans la classe où elle a été définie.
     }
+
+
+    //* Méthode getter
+    public String getMyName() {
+        return myName;
+    }
+
+    //* Méthode setter
+    public void setMyName(String p_myName) {
+        this.myName = p_myName;
+    }
+
+    //* 📌 Note ⚠️: Les getters et setters permettent un accès contrôlé aux attributs.
 }

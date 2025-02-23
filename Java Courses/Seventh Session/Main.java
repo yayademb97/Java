@@ -14,7 +14,9 @@ public class Main {
         System.out.println("-------------------------------------------------");
         //! Instanciation de la classe Cat 🐈:
         Cat miaw = new Cat();
-        System.out.println(miaw);
+        System.out.println(miaw);  //? Output: I am just Cat ? :Cat@2f92e0f4  || est l'emplacement mémoire de cet objet (une identité unique)
+        Cat bob = new Cat();
+        System.out.println(bob);  //? Output : I am just Cat ? :Cat@65b54208  || l'emplacement mémoire de cet objet 
     }
 }
 // - b) private: niveau d'accès privé (accessible uniquement à l'intérieur de la
