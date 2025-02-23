@@ -17,7 +17,7 @@ public class Main {
         System.out.println("Hello This is the information regarding my first abject created from Attribute class\n" + myAttribute2);
 
         //* Exemple: Common Mistake
-        //* Si j'essaie d'accéder depuis la classe Main à l'attribut "p_myName" 
+        //* Si j'essaie d'accéder depuis la classe Main à l'attribut "p_myName" définie dans la classe "Attribute.java"
         // System.out.println(myAttribute1.p_myName);  //? Output: Error: Puisque l'attribut est défini "private" , 
                                                        //* donc du coup on ne peut pas l'accéder à une classe extérieure.
     }
